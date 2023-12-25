@@ -49,27 +49,3 @@ boton.addEventListener("click", () => {
 
 
 
-
-
-
-// const color = document.getElementById("color");
-// const boton = document.querySelector("button");
-
-// function generarColorHex(){
-//   let colorHex = "#";
-//   let digitos = "0123456789ABCDEF"
-  
-//   for (let i = 0; i < 6; i++) {
-//     let indiceAleatorio = Math.floor(Math.random() * 16);
-//     colorHex += digitos[indiceAleatorio]
-//   }
-
-//   return colorHex;
-// }
-
-// boton.addEventListener("click", function () {
-//   let colorAleatorio = generarColorHex();
-//   color.textContent = colorAleatorio;
-//   document.body.style.backgroundColor = colorAleatorio
-//   boton.style.backgroundColor = colorAleatorio
-// })
